@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 ## Amit Updates
 
 To test against XCode Merkle Root Generator:
 
 npx babel-node xcode-test.js
 
+=======
+>>>>>>> 9341691caa80f714973229d1dc22914ed1a2347e
 ## merkle-tree-solidity
 
 JS - Solidity sha3 merkle tree bridge. Generate proofs in JS; verify in Solidity.

@@ -3,6 +3,7 @@ pragma solidity ^0.4.19;
 contract MerkleProof {
 
 function checkProof(bytes proof, bytes32 root, bytes32 hash) public pure returns (bool){
+
     bytes32 el;
     bytes32 h = hash;
 
@@ -12,6 +13,7 @@ function checkProof(bytes proof, bytes32 root, bytes32 hash) public pure returns
         }
 
         if (h < el) {
+
             h = keccak256(h, el);
         } else {
             h = keccak256(el, h);
